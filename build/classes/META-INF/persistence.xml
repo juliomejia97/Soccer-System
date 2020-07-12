@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="Entrega3PU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>entrega3.Entidades.Silla</class>
+    <class>entrega3.Entidades.DirectorTecnico</class>
+    <class>entrega3.Entidades.Pago</class>
+    <class>entrega3.Entidades.Precio</class>
+    <class>entrega3.Entidades.Efectivo</class>
+    <class>entrega3.Entidades.Alineacion</class>
+    <class>entrega3.Entidades.Banco</class>
+    <class>entrega3.Entidades.Tarjeta</class>
+    <class>entrega3.Entidades.Pais</class>
+    <class>entrega3.Entidades.Jugador</class>
+    <class>entrega3.Entidades.Partidoxequipo</class>
+    <class>entrega3.Entidades.Partido</class>
+    <class>entrega3.Entidades.Cliente</class>
+    <class>entrega3.Entidades.Entrada</class>
+    <class>entrega3.Entidades.Equipo</class>
+    <class>entrega3.Entidades.Categoria</class>
+    <class>entrega3.Entidades.Tiquete</class>
+    <class>entrega3.Entidades.Juezxpartido</class>
+    <class>entrega3.Entidades.Persona</class>
+    <class>entrega3.Entidades.Fase</class>
+    <class>entrega3.Entidades.Juez</class>
+    <class>entrega3.Entidades.Tarjetacredito</class>
+    <class>entrega3.Entidades.Anotacion</class>
+    <class>entrega3.Entidades.Estadio</class>
+    <class>entrega3.Entidades.Ciudad</class>
+    <class>entrega3.Entidades.Sillaxpartido</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@orion.javeriana.edu.co:1521:PUJDB"/>
+      <property name="javax.persistence.jdbc.user" value="is174611"/>
+      <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
+      <property name="javax.persistence.jdbc.password" value="CWaFrRViRM"/>
+    </properties>
+  </persistence-unit>
+</persistence>
